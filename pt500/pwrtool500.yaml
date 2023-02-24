@@ -23,9 +23,9 @@ esphome:
   name: pwrtool500
   #friendly_name: PwrTool 500
   name_add_mac_suffix: true
-  project:
-    name: "${project_name}"
-    version: "${project_version}"
+  # project:
+  #   name: "${project_name}"
+  #   version: "${project_version}"
 
 esp32:
   board: esp32-c3-devkitm-1
