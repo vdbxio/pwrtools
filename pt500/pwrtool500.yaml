@@ -51,8 +51,8 @@ web_server:
 esp32_improv:
   authorizer: none
 
-improv_serial:
-  next_url: http://vdbx.io
+# improv_serial:
+#   next_url: http://vdbx.io
 
 # DASHBOARD IMPORT FOR ESPHOME CONFIG
 dashboard_import:
