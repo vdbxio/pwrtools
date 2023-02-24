@@ -21,7 +21,7 @@ substitutions:
 ### BEGIN ESPHOME ###
 esphome:
   name: pwrtool500
-  friendly_name: PwrTool 500
+  #friendly_name: PwrTool 500
   name_add_mac_suffix: true
   project:
     name: "${project_name}"
@@ -43,7 +43,7 @@ wifi:
   ap:
     password: "GenericPassword"
 
-captive_portal:
+#captive_portal:
 
 web_server:
   local: True
