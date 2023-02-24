@@ -21,7 +21,7 @@ substitutions:
 ### BEGIN ESPHOME ###
 esphome:
   name: pwrtool500
-  #friendly_name: PwrTool 500
+  friendly_name: PwrTool 500
   name_add_mac_suffix: true
   project:
     name: "${project_name}"
@@ -141,5 +141,5 @@ sensor:
 
 binary_sensor:
   - platform: status
-    name: "${fname} Status"
+    name: "Shunt Status"
 
