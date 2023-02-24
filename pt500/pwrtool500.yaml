@@ -11,21 +11,17 @@
 # LED? WS2812????
 
 substitutions:
-  name: pwrtool500
-  fname: "PwrTool 500"
+  # name: pwrtool500
+  # fname: "PwrTool 500"
   project_name: "vdbxio.PwrTool 500"
   project_version: "0.9.1"
   speed: 1s
   
-api:
-
-ota:
-
 
 ### BEGIN ESPHOME ###
 esphome:
   name: pwrtool500
-  friendly_name: ${fname}
+  friendly_name: PwrTool 500
   name_add_mac_suffix: true
   project:
     name: "${project_name}"
@@ -39,6 +35,9 @@ esp32:
 # Enable logging
 logger:
 
+api:
+
+ota:
 
 wifi:
   ap:
@@ -86,7 +85,7 @@ light:
   - platform: neopixelbus
     type: GRB
     variant: WS2811
-    pin: 3
+    pin: 8
     num_leds: 60
     name: "NeoPixel Light"
 
@@ -96,36 +95,36 @@ switch:
     pin: 5
 
 sensor:
-  - platform: max9611
-    shunt_resistance: 0.005 ohm
-    gain: '1X'
-    voltage:
-      name: ${fname} Voltage
-      id: shunt_volts
-    current:
-      name: ${fname} Current
-      id: shunt_amps
-    power:
-      name: ${fname} Watts
-      id: shunt_watts
-    temperature:
-      name: ${fname} Temperature
-    address: 0x70
-    update_interval: ${speed}
+  # - platform: max9611
+  #   shunt_resistance: 0.005 ohm
+  #   gain: '1X'
+  #   voltage:
+  #     name: ${fname} Voltage
+  #     id: shunt_volts
+  #   current:
+  #     name: ${fname} Current
+  #     id: shunt_amps
+  #   power:
+  #     name: ${fname} Watts
+  #     id: shunt_watts
+  #   temperature:
+  #     name: ${fname} Temperature
+  #   address: 0x70
+  #   update_interval: ${speed}
 
-  - platform: total_daily_energy
-    name: "Total Daily Energy"
-    power_id: shunt_watts
-    filters:
-        # Multiplication factor from W to kW is 0.001
-        - multiply: 0.001
-    unit_of_measurement: kWh
-    restore: True
-  - platform: integration
-    name: "Total Daily Energy"
-    sensor: shunt_watts
-    time_unit: min
-    restore: True
+  # - platform: total_daily_energy
+  #   name: "Total Daily Energy"
+  #   power_id: shunt_watts
+  #   filters:
+  #       # Multiplication factor from W to kW is 0.001
+  #       - multiply: 0.001
+  #   unit_of_measurement: kWh
+  #   restore: True
+  # - platform: integration
+  #   name: "Total Daily Energy"
+  #   sensor: shunt_watts
+  #   time_unit: min
+  #   restore: True
 ### Wifi Signal Sensor in Diags
   - platform: wifi_signal # Reports the WiFi signal strength/RSSI in dB
     name: "WiFi Signal dB"
@@ -138,7 +137,7 @@ sensor:
     name: "WiFi Signal Percent"
     filters:
       - lambda: return min(max(2 * (x + 100.0), 0.0), 100.0);
-    unit_of_measurement: "Signal %"
+    unit_of_measurement: "%"
     entity_category: "diagnostic"
 
 binary_sensor:
