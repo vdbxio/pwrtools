@@ -56,7 +56,7 @@ esp32_improv:
 
 improv_serial:
 
-DASHBOARD IMPORT FOR ESPHOME CONFIG
+# DASHBOARD IMPORT FOR ESPHOME CONFIG
 dashboard_import:
   package_import_url: github://vdbxio/pwrtools/pt500/pwrtool500.yaml@main
   import_full_config: true
