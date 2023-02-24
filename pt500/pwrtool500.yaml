@@ -56,10 +56,10 @@ esp32_improv:
 
 improv_serial:
 
-# DASHBOARD IMPORT FOR ESPHOME CONFIG
-# dashboard_import:
-#   package_import_url: github://everythingsmarthome/presence-one/everything-presence-one.yaml@main
-#   import_full_config: false
+DASHBOARD IMPORT FOR ESPHOME CONFIG
+dashboard_import:
+  package_import_url: github://vdbxio/pwrtools/pt500/pwrtool500.yaml@main
+  import_full_config: true
 
 time:
   - platform: sntp
