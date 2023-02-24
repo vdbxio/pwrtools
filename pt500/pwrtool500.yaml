@@ -101,13 +101,13 @@ sensor:
     gain: '1X'
     voltage:
       name: ${fname} Voltage
-      id: ${name}_volts
+      id: shunt_volts
     current:
       name: ${fname} Current
-      id: ${name}_amps
+      id: shunt_amps
     power:
       name: ${fname} Watts
-      id: ${name}_watts
+      id: shunt_watts
     temperature:
       name: ${fname} Temperature
     address: 0x70
@@ -115,7 +115,7 @@ sensor:
 
   - platform: total_daily_energy
     name: "Total Daily Energy"
-    power_id: ${name}_watts
+    power_id: shunt_watts
     filters:
         # Multiplication factor from W to kW is 0.001
         - multiply: 0.001
@@ -123,7 +123,7 @@ sensor:
     restore: True
   - platform: integration
     name: "Total Daily Energy"
-    sensor: ${name}_watts
+    sensor: shunt_watts
     time_unit: min
     restore: True
 ### Wifi Signal Sensor in Diags
