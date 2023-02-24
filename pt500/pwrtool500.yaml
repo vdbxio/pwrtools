@@ -21,7 +21,7 @@ substitutions:
 ### BEGIN ESPHOME ###
 esphome:
   name: pwrtool500
-  friendly_name: PwrTool 500
+  #friendly_name: PwrTool 500
   name_add_mac_suffix: true
   project:
     name: "${project_name}"
@@ -41,7 +41,6 @@ ota:
 
 wifi:
   ap:
-    ssid: "${fname}"
     password: "GenericPassword"
 
 captive_portal:
