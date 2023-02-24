@@ -18,10 +18,9 @@ substitutions:
   speed: 1s
   
 api:
-  # encryption:
-  #   key: "Dm9z7It5HrHDNWDMZZZOj9BzZyrf8quXa3ExHMnxDjs="
+
 ota:
-  # password: "98c1bc5debeb8996b51aa8e934b99976"
+
 
 ### BEGIN ESPHOME ###
 esphome:
@@ -55,6 +54,7 @@ esp32_improv:
   authorizer: none
 
 improv_serial:
+  next_url: http://vdbx.io
 
 # DASHBOARD IMPORT FOR ESPHOME CONFIG
 dashboard_import:
