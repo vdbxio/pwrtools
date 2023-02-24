@@ -12,7 +12,7 @@
 
 substitutions:
   name: pwrtool500
-  fname: "PwrTool 500 "
+  fname: "PwrTool 500"
   project_name: "vdbxio.PwrTool 500"
   project_version: "0.9.1"
   speed: 1s
@@ -24,9 +24,9 @@ ota:
 
 ### BEGIN ESPHOME ###
 esphome:
-  name: ${name}
-  name_add_mac_suffix: true
+  name: pwrtool500
   friendly_name: ${fname}
+  name_add_mac_suffix: true
   project:
     name: "${project_name}"
     version: "${project_version}"
