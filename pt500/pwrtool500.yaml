@@ -11,10 +11,10 @@
 # LED? WS2812????
 
 substitutions:
-  name: powertoolpro
-  fname: "PowerTool Pro"
-  project_name: "vdbx.PowerToolPro"
-  project_version: "0.9.0"
+  name: pwrtool500
+  fname: "PwrTool 500 "
+  project_name: "vdbxio.PwrTool 500"
+  project_version: "0.9.1"
   speed: 1s
   
 api:
@@ -27,7 +27,7 @@ ota:
 esphome:
   name: ${name}
   name_add_mac_suffix: true
-  # friendly_name: ${fname}
+  friendly_name: ${fname}
   project:
     name: "${project_name}"
     version: "${project_version}"
