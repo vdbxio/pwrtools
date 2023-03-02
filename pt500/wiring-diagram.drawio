@@ -1,1 +1,41 @@
-<mxfile host="app.diagrams.net" modified="2023-03-02T02:15:13.347Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="20.8.23" etag="z-mdPS1z7bLonsDdEox7" type="github"><diagram name="Page-1" id="FlETkS9mfgLJ2g2mFNbb">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-02T02:23:12.391Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="YcEgZULGhdI93fZaaTgR" version="20.8.23" type="github">
+  <diagram name="Page-1" id="FlETkS9mfgLJ2g2mFNbb">
+    <mxGraphModel dx="1040" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZmwsHde2RrH6z-7QSZHa-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=League Spartan;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLeague%2BSpartan;fontSize=47;endArrow=none;endFill=0;strokeWidth=5;" edge="1" parent="1" source="ZmwsHde2RrH6z-7QSZHa-1" target="ZmwsHde2RrH6z-7QSZHa-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmwsHde2RrH6z-7QSZHa-1" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;PWR Tool 500&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=League Spartan;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLeague%2BSpartan;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="730" y="310" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmwsHde2RrH6z-7QSZHa-2" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Battery 5-60v&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=League Spartan;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLeague%2BSpartan;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="620" width="270" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmwsHde2RrH6z-7QSZHa-3" value="+" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=League Spartan;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLeague%2BSpartan;fontSize=47;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="840" y="600" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmwsHde2RrH6z-7QSZHa-4" value="-" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=League Spartan;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLeague%2BSpartan;fontSize=47;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="660" y="600" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmwsHde2RrH6z-7QSZHa-6" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Load&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=League Spartan;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLeague%2BSpartan;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="60" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmwsHde2RrH6z-7QSZHa-7" value="" style="curved=1;endArrow=none;html=1;rounded=0;strokeWidth=5;fontFamily=League Spartan;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLeague%2BSpartan;fontSize=47;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="860" y="570" as="sourcePoint" />
+            <mxPoint x="870" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="890" y="560" />
+              <mxPoint x="840" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZmwsHde2RrH6z-7QSZHa-8" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Fuse&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=47;fontFamily=League Spartan;" vertex="1" parent="1">
+          <mxGeometry x="890" y="520" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
