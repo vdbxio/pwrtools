@@ -1,0 +1,10 @@
+{
+    "frontMatter.content.autoUpdateDate": true,
+    "frontMatter.taxonomy.tags": [
+        "C3",
+        "ESP32"
+    ],
+    "frontMatter.taxonomy.categories": [
+        "Product"
+    ]
+}

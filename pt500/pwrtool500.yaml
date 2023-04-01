@@ -1,18 +1,13 @@
 # PowerTool Pro 23.02-working
 # Voidbox Industries & Chloe Madison
 # VDBX.io / @clomads
-# CC-BY-SA 4.0 
-#
-# NOTES
-# Analog inputs - from 12/24/36/48?
-# Resistance sensor downstream - need tank float to test
-# GPIO Button/Switch??
-# Need a reset SW
-# LED? WS2812????
+# CC-BY-SA 4.0
+# Visit wiki.VDBX.io for more information
+
 
 substitutions:
-  # name: pwrtool500
-  # fname: "PwrTool 500"
+  name: pwrtool500
+  fname: "PwrTool 500"
   project_name: "vdbxio.PwrTool 500"
   project_version: "0.9.1"
   speed: 1s
@@ -21,11 +16,11 @@ substitutions:
 ### BEGIN ESPHOME ###
 esphome:
   name: pwrtool500
-  #friendly_name: PwrTool 500
+  friendly_name: PwrTool 500
   name_add_mac_suffix: true
-  # project:
-  #   name: "${project_name}"
-  #   version: "${project_version}"
+  project:
+    name: "${project_name}"
+    version: "${project_version}"
 
 esp32:
   board: esp32-c3-devkitm-1
@@ -79,7 +74,7 @@ i2c:
 
 light:
   - platform: status_led
-    name: "Switch state"
+    name: "Status LED"
     pin: 10
   - platform: neopixelbus
     type: GRB
